@@ -200,15 +200,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 60
+			popularity = 70
 		}
 		
 		communism = {
-			popularity = 20
+			popularity = 10
 			banned = yes #default is no
 		}
 	}
@@ -223,8 +223,8 @@ set_politics = {
 create_faction = Axis
 add_to_faction = GER
 
-
 add_ideas = {
+	diktat
 	sour_loser
 	general_staff
 	limited_exports

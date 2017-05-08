@@ -1908,11 +1908,11 @@ GER_war_with_england:0 "Opération Seelöwe\n« Lion de Mer »"
 GER_war_with_england_desc:0 ""
 GER_war_with_england_threat:0 "[GER.GetNameWithFlag] gagne l'objectif de guerre transformer en État fantoche (priorité) contre [ENG.GetNameWithFlag]"
 ##
-GER_war_with_irish:0 "Opération Fall Grün\n« Plan Vert »"
+GER_war_with_irish:0 "Opération Grün\n« Vert »"
 GER_war_with_irish_desc:0 ""
 GER_war_with_irish_threat:0 "[GER.GetNameWithFlag] gagne l'objectif de guerre transformer en État fantoche (priorité) contre [IRE.GetNameWithFlag]"
 ##
-GER_england_battle:0 "La bataille d'Angleterre"
+GER_england_battle:0 "Bataille d'Angleterre"
 GER_england_battle_desc:0 ""
 ##
 GER_london:0 "Vergeltungswaffe\n« arme de représailles »"
@@ -1924,7 +1924,7 @@ GER_luxembourg_puppet_desc:0 ""
 GER_ussr_war_goal:0 "Opération Barbarossa"
 GER_ussr_war_goal_desc:0 "Nous devons préparer l'opinion allemande – et mondiale – à une guerre légitime contre l'Union soviétique en centrant notre propagande sur ce sujet."
 ##
-GER_urss_war_tech:0 "La menace bolcheviks"
+GER_urss_war_tech:0 "Menace bolcheviks"
 GER_urss_war_tech_desc:0 "Notre avantages technologiques sur les bolcheviks nous permettra de faire pencher la guerre de notre faveur. Il faut cependant moderniser notre armée pour minimiser la durée de la guerre."
 ##
 GER_Einsatzgruppen:0 "Einsatzgruppen\n« groupe d'intervention»"
@@ -1955,7 +1955,7 @@ GER_antitank_innovation_desc:0 ""
 GER_peenemunde:0 "Site de Peenemünde"
 GER_peenemunde_desc:0 ""
 ##
-GER_west_wall:0 "La ligne Siegfried"
+GER_west_wall:0 "Ligne Siegfried"
 GER_west_wall_desc:0 "Parallèle à la célèbre ligne Maginot française, le Westwall suit à peu près le même tracé que la ligne Siegfried de la Première Guerre mondiale. Renforcer ses fortifications nous permettra de protéger la frontière en nécessitant moins d'effectifs, et ainsi de libérer des divisions pour d'éventuelles campagnes à l'est."
 GER_west_wall_tt:0 "§RDe plus, si la Rhénanie est remilitarisée :§!\n"
 GER_west_wall_forts:0 "Ajoute §Y12 forts terrestres§! sur la frontière française.\n"
@@ -1969,5 +1969,8 @@ GER_STO_tt:0 "§YLa France de Vichy§! est un état fantoche de l'§YAllemagne§
 ##
 GER_venezuelan_trade:0 "Pétrole vénézuélien"
 GER_venezuelan_trade_desc:0 "Nous avons besoin d'une source de pétrole bon marché pour faire tourner notre économie de guerre, bien que le trajet soit long les puits de pétrole du Vénézuela sont loin de s'épuiser."
+##
+GER_vote:0 "Soutien populaire à la remilitarisation de la Rhénanie"
+GER_vote_desc0:0 ""
 ####################
 ####################

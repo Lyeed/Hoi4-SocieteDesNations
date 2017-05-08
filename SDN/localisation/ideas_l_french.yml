@@ -2479,3 +2479,7 @@
 GER_enigma_idea:0 "Machine de chiffrement Enigma"
 GER_submarine_production_idea:0 "Chantiers navals dédiés à la production des U-boats"
 GER_STO_idea:0 "Service Travail Obligatoire"
+diktat:0 "Diktat"
+diktat_desc:0 "Le traité de Versailles réduit la capacité industrielle militaire allemande. Bien que de plus de plus de clauses soient enfreint il est toujours impossible pour les allemandes de satisfaire leur besoin d'armes et munitions."
+####################
+####################
