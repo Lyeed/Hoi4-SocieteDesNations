@@ -1849,17 +1849,6 @@
  continuous_boost_freedom_desc:0 "La réorganisation de l'administration coloniale et le recrutement de bureaucrates indigènes nous permettront, avec le temps, de prendre en charge nous-mêmes nos propres affaires."
  continuous_restrict_freedom:0 "Dépendances muselées"
  continuous_restrict_freedom_desc:0 "Les dépendances coloniales se sont entichées d'idées stupides, qu'elles appellent « auto-détermination », ou encore « indépendance nationale ». Il est temps que nous les détrompions en leur expliquant la vérité."
- FRA_extra_research_slot_3:0 "Rattraper le temps perdu"
- FRA_extra_research_slot_3_desc:0 "De jeunes talents prometteurs apparaissent un peu partout dans le pays. Fournissons-leur des installations pour mener leurs recherches. Les progrès technologiques ainsi réalisés nous permettront de prendre l'avantage dans les domaines stratégiques."
- FRA_snap_election:0 "Il nous faut un chef !"
- FRA_snap_election_desc:0 "Nous avons tout essayé, les coalitions, les arrangements, tout ! Personne n'est d'accord sur rien ! Il n'y a plus qu'une solution pour nous réunir devant ces temps de crise, il faut faire appel au peuple !"
- FRA_extend_the_maginot_line_b:0 "Fortification des villes du Nord"
- FRA_extend_the_maginot_line_b_desc:0 "En cas d'invasion, la Belgique n'aura pas les moyens de se défendre. Par conséquent, si des armées ennemies pénètrent sur son territoire, nous aurons des ennuis. Prolongeons la ligne Maginot pour empêcher les armées ennemies d'entrer en France !"
- FRA_extend_the_maginot_line_a:0 "Fortification des Ardennes"
- FRA_extend_the_maginot_line_a_desc:0 "En cas d'invasion, la Belgique n'aura pas les moyens de se défendre. Par conséquent, si des armées ennemies pénètrent sur son territoire, nous aurons des ennuis. Prolongeons la ligne Maginot pour empêcher les armées ennemies d'entrer en France !"
- FRA_extend_the_maginot_line_g:0 "Consolidation du secteur Nord"
- FRA_extend_the_maginot_line_g_desc:0 "En cas d'invasion, la Belgique n'aura pas les moyens de se défendre. Par conséquent, si des armées ennemies pénètrent sur son territoire, nous aurons des ennuis. Prolongeons la ligne Maginot pour empêcher les armées ennemies d'entrer en France !"
-
 
 ######################
 ###  TO BE ERASED  ###
@@ -1873,3 +1862,112 @@
  USA_destroyers_for_bases_tt:0 "§Y[USA.GetNameDef]§! : \n"
  AST_deal_with_japan_tt:1 "Nous allons suggérer une alliance au Japon en proposant de lui transférer la souveraineté sur la §YMalaisie§!. Si ce n'est pas possible, nous proposerons de lui céder en échange les États de §YKalimantan§!, §YSulawesi§! et des §YMoluques§!.\n"
  RAJ_navy_funding_effect:0 "Si nous maîtrisons déjà cette technologie, §Y2 croiseurs légers§! vont être ajoutés à la flotte.\n"
+
+####################
+### CESARION ###
+####################
+ FRA_extra_research_slot_3:0 "Rattraper le temps perdu"
+ FRA_extra_research_slot_3_desc:0 "De jeunes talents prometteurs apparaissent un peu partout dans le pays. Fournissons-leur des installations pour mener leurs recherches. Les progrès technologiques ainsi réalisés nous permettront de prendre l'avantage dans les domaines stratégiques."
+ FRA_snap_election:0 "Il nous faut un chef !"
+ FRA_snap_election_desc:0 "Nous avons tout essayé, les coalitions, les arrangements, tout ! Personne n'est d'accord sur rien ! Il n'y a plus qu'une solution pour nous réunir devant ces temps de crise, il faut faire appel au peuple !"
+ FRA_extend_the_maginot_line_b:0 "Fortification des villes du Nord"
+ FRA_extend_the_maginot_line_b_desc:0 "En cas d'invasion, la Belgique n'aura pas les moyens de se défendre. Par conséquent, si des armées ennemies pénètrent sur son territoire, nous aurons des ennuis. Prolongeons la ligne Maginot pour empêcher les armées ennemies d'entrer en France !"
+ FRA_extend_the_maginot_line_a:0 "Fortification des Ardennes"
+ FRA_extend_the_maginot_line_a_desc:0 "En cas d'invasion, la Belgique n'aura pas les moyens de se défendre. Par conséquent, si des armées ennemies pénètrent sur son territoire, nous aurons des ennuis. Prolongeons la ligne Maginot pour empêcher les armées ennemies d'entrer en France !"
+ FRA_extend_the_maginot_line_g:0 "Consolidation du secteur Nord"
+ FRA_extend_the_maginot_line_g_desc:0 "En cas d'invasion, la Belgique n'aura pas les moyens de se défendre. Par conséquent, si des armées ennemies pénètrent sur son territoire, nous aurons des ennuis. Prolongeons la ligne Maginot pour empêcher les armées ennemies d'entrer en France !"
+####################
+####################
+
+##################
+###    LYEED   ###
+##################
+GER_occupy_vichy:0 "Occuper le Sud de la France"
+GER_occupy_vichy_desc:0 "Les débarquements en Afrique du Nord fragiligent notre position en France. Nous devons passer la ligne de démarcation et nous emparer des territoires de Vichy."
+GER_occupy_vichy_tt:0 "§YLa France de Vichy§! est un état fantoche de l'§YAllemagne§! et ne contrôle ni §YAlger§! ni §YCasablanca§!"
+##
+GER_atlantic_wall:0 "Construire le Mur de l'Atlantique"
+GER_atlantic_wall_desc:0 "Avec l'entrer en guerre des Etats-Unis nous devons nous tenir prêt à un débarquement."
+GER_atlantic_wall_tt:0 "§Y[GER.GetNameDef]§! contrôle toute la façade Atlantique."
+##
+GER_atlantic_wall_extend:0 "Consolider les défenses cotières Française"
+GER_atlantic_wall_extend_desc:0 "Consolider nos défenses cotières nous permettra de devenir quasiment invulnérable faces aux débarquements."
+GER_atlantic_wall_extend_tt:0 "§Y[GER.GetNameDef]§! contrôle toutes les côtes françaises."
+##
+GER_belgium_befriend:0 "Pression sur la Belgique"
+GER_belgium_befriend_desc:0 "Les Belges n'ont plus confiance dans l'armée français pour les protéger. Avec quelques menaces et démonstrations de force, ils devraient se soumettre et laisser passer nos armée."
+##
+GER_atlantic_battle:0 "Bataille de l'Atlantique"
+GER_atlantic_battle_desc:0 ""
+##
+GER_war_with_france:0 "Opération Fall Gelb\n« Plan Jaune »"
+GER_war_with_france_desc:0 "L'Allemagne a maintenant trouvé une solution satisfaisante au problème de sa frontière orientale, même si ce n'est que temporaire. Il est donc temps de tourner notre attention à l'ouest. La perte de l'Alsace-Lorraine est une tâche sur l'honneur du peuple allemand, que seule une guerre juste pourra laver."
+GER_war_with_france_threat:0 "Revendications sur le territoire français"
+##
+GER_war_with_england:0 "Opération Seelöwe\n« Lion de Mer »"
+GER_war_with_england_desc:0 ""
+GER_war_with_england_threat:0 "[GER.GetNameWithFlag] gagne l'objectif de guerre transformer en État fantoche (priorité) contre [ENG.GetNameWithFlag]"
+##
+GER_war_with_irish:0 "Opération Fall Grün\n« Plan Vert »"
+GER_war_with_irish_desc:0 ""
+GER_war_with_irish_threat:0 "[GER.GetNameWithFlag] gagne l'objectif de guerre transformer en État fantoche (priorité) contre [IRE.GetNameWithFlag]"
+##
+GER_england_battle:0 "La bataille d'Angleterre"
+GER_england_battle_desc:0 ""
+##
+GER_london:0 "Vergeltungswaffe\n« arme de représailles »"
+GER_london_desc:0"
+##
+GER_luxembourg_puppet:0 "Luxembourg fantoche"
+GER_luxembourg_puppet_desc:0 ""
+##
+GER_ussr_war_goal:0 "Opération Barbarossa"
+GER_ussr_war_goal_desc:0 "Nous devons préparer l'opinion allemande – et mondiale – à une guerre légitime contre l'Union soviétique en centrant notre propagande sur ce sujet."
+##
+GER_urss_war_tech:0 "La menace bolcheviks"
+GER_urss_war_tech_desc:0 "Notre avantages technologiques sur les bolcheviks nous permettra de faire pencher la guerre de notre faveur. Il faut cependant moderniser notre armée pour minimiser la durée de la guerre."
+##
+GER_Einsatzgruppen:0 "Einsatzgruppen\n« groupe d'intervention»"
+GER_Einsatzgruppen_desc:0 ""
+##
+GER_enigma:0 "Enigma"
+GER_enigma_desc:0 ""
+##
+GER_fuel_effort:0 "Investir dans l'essence synthétique"
+GER_fuel_effort_desc:0 ""
+##
+GER_military_effort:0 "Investir dans la production militaire"
+GER_military_effort_desc:0 ""
+##
+GER_rhineland_ask:0 "Négocation pour la Rhénanie"
+GER_rhineland_ask_desc:0 "Proposons aux Francais de négocier l'accès de nos troupes à la Rhénanie en échange d'une réduction de notre production militaire."
+##
+GER_rhineland:0 "Remilitarisation de la Rhénanie"
+GER_rhineland_desc:0 "La Rhénanie est démilitarisée depuis la fin de la Première Guerre mondiale, mais nous allons nous venger de cet affront ! L'Allemagne est une nation souveraine, libre de déployer des troupes sur son territoire !"
+GER_rhineland_deal:0 "§RNous perdrons trois usines militaires si la proposition est acceptée.§!\n"
+##
+GER_artillery_innovation:0 "Priorité à l'artillerie"
+GER_artillery_innovation_desc:0 ""
+##
+GER_antitank_innovation:0 "Priorité à l'anti-tank"
+GER_antitank_innovation_desc:0 ""
+##
+GER_peenemunde:0 "Site de Peenemünde"
+GER_peenemunde_desc:0 ""
+##
+GER_west_wall:0 "La ligne Siegfried"
+GER_west_wall_desc:0 "Parallèle à la célèbre ligne Maginot française, le Westwall suit à peu près le même tracé que la ligne Siegfried de la Première Guerre mondiale. Renforcer ses fortifications nous permettra de protéger la frontière en nécessitant moins d'effectifs, et ainsi de libérer des divisions pour d'éventuelles campagnes à l'est."
+GER_west_wall_tt:0 "§RDe plus, si la Rhénanie est remilitarisée :§!\n"
+GER_west_wall_forts:0 "Ajoute §Y12 forts terrestres§! sur la frontière française.\n"
+##
+GER_northen_trade:0 "Minerais suédois"
+GER_northen_trade_desc:0 "Nous avons besoin des minerais suédois pour mener à bien nos projets de grande envergure. Les mines de Suèdes renferment aussi des métaux lourds utilisés dans la production de nos chars et navires."
+##
+GER_STO:0 "Service Travail Obligatoire"
+GER_STO_desc:0 ""
+GER_STO_tt:0 "§YLa France de Vichy§! est un état fantoche de l'§YAllemagne§!"
+##
+GER_venezuelan_trade:0 "Pétrole vénézuélien"
+GER_venezuelan_trade_desc:0 "Nous avons besoin d'une source de pétrole bon marché pour faire tourner notre économie de guerre, bien que le trajet soit long les puits de pétrole du Vénézuela sont loin de s'épuiser."
+####################
+####################

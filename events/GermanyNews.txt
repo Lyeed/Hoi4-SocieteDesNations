@@ -1,0 +1,60 @@
+﻿add_namespace = GermanyNews
+
+#Germany Puppets Luxembourg
+news_event = {
+	id = GermanyNews.1000
+	title = GermanyNews.1000.t
+	desc = GermanyNews.1000.desc
+	picture = GFX_news_event_009
+	major = yes
+	is_triggered_only = yes
+
+	immediate = {
+		GER = {
+			save_event_target_as = Germany
+		}
+	}
+
+	trigger = {
+		NOT = {
+			tag = LUX
+		}
+	}
+
+	option = {
+		name = GermanyNews.1000.a
+		trigger = {
+			tag = GER
+		}
+	}
+	option = {
+		name = GermanyNews.1000.b
+		trigger = {
+			is_in_faction_with = GER
+			NOT = {
+				tag = GER
+			}
+		}
+	}
+	option = {
+		name = GermanyNews.1000.c
+		trigger = {
+			NOT = {
+				is_in_faction_with = GER
+			}
+			NOT = {
+				OR = {
+					tag = GER
+					tag = LUX
+					tag = FRA
+				}
+			}
+		}
+	}
+	option = {
+		name = GermanyNews.1000.d
+		trigger = {
+			tag = FRA
+		}
+	}
+}

@@ -2688,20 +2688,6 @@
  britain.22.t:0 "Démission de Stanley Baldwin"
  britain.22.d:0 "Deux semaines après le couronnement du roi George VI, M. Baldwin, âgé de 70 ans, a annoncé qu'il démissionnait de ses fonctions de Premier ministre afin de prendre sa retraite. À la tête du Gouvernement national par intermittence depuis 1923, il a été la cheville ouvrière ayant permis de sortir l'Empire britannique de la Grande Dépression, et au cours des dernières années a été contraint de procéder – à contrecœur – au réarmement du pays et de superviser l'abdication du roi Édouard VIII. Premier ministre populaire et couronné de succès, a-t-il cependant fait suffisamment pour contrer la menace croissante venue de l'Allemagne ?"
  britain.22.a:0 "M. Chamberlain devrait tenter de former un nouveau gouvernement"
- france.31.t:0 "Démission d'Édouard Daladier"
- france.31.d:0 "Avec l'effondrement de la Troisième République et le refus du gouvernement allemand d'offrir un armistice, de nouveaux dirigeants doivent poursuivre le combat depuis les colonies. On ne peut jeter le discrédit sur les actions de monsieur Daladier en tant que président du Conseil, et les circonstances extraordinaires auxquelles la France a été confrontée ne lui ont pas laissé la moindre chance. Nous ne pouvons qu'espérer qu'au bout du tunnel dans lequel elle s'engage elle pourra trouver la lumière."
- france.31.a:0 "M. Reynaud devrait tenter de former un nouveau gouvernement"
- france.32.t:0 "Élections anticipées"
- france.32.d:0 "Deux partis arrivent en tête. Le Parti social français, dirigé par le colonel de la Rocque ancien dirigeant des croix de feu qui avait refusé de participer à la tentative de coup d'État le 6 février 1934 dont la politique internationale se décrit par « Ni Hitler, Ni Staline » et le Front populaire, dirigé par Léon Blum, qui promeut une politique sociale sans pour autant soutenir la ligne communiste considérée extrême. Le résultat est serré."
- france.32.a:0 "Le PSF du colonel a gagné !"
- france.32.b:0 "Vive le Front populaire !"
- france.34.t:0 "Grèves générales"
- france.34.d:0 "La victoire du Parti social français a suscité de vives inquiétudes au sein des ouvriers qui craignent une perte des acquis sociaux. Le Parti communiste, particulièrement opposé à la politique internationale du colonel de la Rocque, en profite pour fédérer les opposants et organiser une grève générale. Des échauffourées éclatent entre les forces de l'ordre et les manifestants."
- france.34.a:0 "Laissons les faire..."
- france.34.b:0 "Envoyez l'armée !"
- france.35.t:0 "Fin des grèves"
- france.35.d:0 "Les ouvriers ont décidé de se remettre au travail après des négociations avec le milieu des affaires. Le gouvernement se retrouve affaiblit par cet épisode gréviste dont il se serait bien passé. C'est une réussite en revanche pour le Parti communiste qui a démontré sa force."
- france.35.a:0 "Passons à autre chose."
 
  GAME_OVER_TT:0 "§RCeci mettrait fin à la partie.§!"
  CAN_ANGERED_WORKERS:0 "Cela va mettre la population en colère."
@@ -2729,3 +2715,80 @@
  germany.999.desc:0 "Après la superbe victoire des troupes allemandes, le moment est venu d'abattre les derniers vestiges de l'emprise bolchévique sur l'Europe. Aujourd'hui encore, les noms de Staline et Lénine déshonorent ces deux grandes villes du nouveau Lebensraum allemand, moquant les soldats qui ont donné leurs vies pour les prendre.\n\nL'« Association des Vétérans de la Weltkrieg » a fait part au gouvernement d'une suggestion pour mettre un terme à cette situation horrible."
  germany.999.a:0 "Honorons les héros de la dernière guerre !"
  germany.999.b:0 "Cette suggestion est parfaitement ridicule !"
+
+
+####################
+### CESARION ###
+####################
+ france.31.t:0 "Démission d'Édouard Daladier"
+ france.31.d:0 "Avec l'effondrement de la Troisième République et le refus du gouvernement allemand d'offrir un armistice, de nouveaux dirigeants doivent poursuivre le combat depuis les colonies. On ne peut jeter le discrédit sur les actions de monsieur Daladier en tant que président du Conseil, et les circonstances extraordinaires auxquelles la France a été confrontée ne lui ont pas laissé la moindre chance. Nous ne pouvons qu'espérer qu'au bout du tunnel dans lequel elle s'engage elle pourra trouver la lumière."
+ france.31.a:0 "M. Reynaud devrait tenter de former un nouveau gouvernement"
+ france.32.t:0 "Élections anticipées"
+ france.32.d:0 "Deux partis arrivent en tête. Le Parti social français, dirigé par le colonel de la Rocque ancien dirigeant des croix de feu qui avait refusé de participer à la tentative de coup d'État le 6 février 1934 dont la politique internationale se décrit par « Ni Hitler, Ni Staline » et le Front populaire, dirigé par Léon Blum, qui promeut une politique sociale sans pour autant soutenir la ligne communiste considérée extrême. Le résultat est serré."
+ france.32.a:0 "Le PSF du colonel a gagné !"
+ france.32.b:0 "Vive le Front populaire !"
+ france.34.t:0 "Grèves générales"
+ france.34.d:0 "La victoire du Parti social français a suscité de vives inquiétudes au sein des ouvriers qui craignent une perte des acquis sociaux. Le Parti communiste, particulièrement opposé à la politique internationale du colonel de la Rocque, en profite pour fédérer les opposants et organiser une grève générale. Des échauffourées éclatent entre les forces de l'ordre et les manifestants."
+ france.34.a:0 "Laissons les faire..."
+ france.34.b:0 "Envoyez l'armée !"
+ france.35.t:0 "Fin des grèves"
+ france.35.d:0 "Les ouvriers ont décidé de se remettre au travail après des négociations avec le milieu des affaires. Le gouvernement se retrouve affaiblit par cet épisode gréviste dont il se serait bien passé. C'est une réussite en revanche pour le Parti communiste qui a démontré sa force."
+ france.35.a:0 "Passons à autre chose."
+####################
+####################
+
+##################
+###    LYEED   ###
+##################
+germany.2000.t:0 "Ultimatum allemand"
+germany.2000.desc:0 "[From.GetLeader] fait pression sur notre gouvernement pour que nous rejoignions leurs rangs. Les francais ne nous ont pas soutenu et notre situation n'est plus tenable. Il nous faut prendre une décision maintenant."
+germany.2000.a:0 "Il est temps pour nous d'accepter les exigences allemandes"
+##
+germany.2001.t:0 "Proposition allemande au sujet de la Rhénanie"
+germany.2001.desc:0 "[GER.GetLeader] nous propose de les laisser stationner des troupes en zone délimitariser en échange d'une réduction de 3 de leur nombre d'usine militaire."
+germany.2001.a:0 "Nous acceptons !"
+germany.2001.b:0 "Nous n'accepterons que si la réduction inclus 6 usines militaire"
+germany.2001.c:0 "Cette proposition est inacceptable"
+##
+germany.2002.t:0 "Proposition acceptée"
+germany.2002.desc:0 "[FRA.GetLeader] a accepté notre proposition de stationner des troupes en zone délimitariser en échange d'une réduction de 3 de notre nombre d'usine militaire."
+germany.2002.a:0 "Formidable"
+##
+germany.2003.t:0 "Contre-offre"
+germany.2003.desc:0 "[FRA.GetLeader] nous a fait une contre-offre à 6 usines militaires."
+germany.2003.a:0 "Nous acceptons"
+germany.2003.b:0 "Nous refusons"
+##
+germany.2004.t:0 "Proposition rejetée"
+germany.2004.desc:0 "[FRA.GetLeader] a refusé notre proposition."
+germany.2004.a:0 "Nous remilitarisation le Rhénanie par la force !"
+##
+germany.2005.t:0 "Contre-offre acceptée"
+germany.2005.desc:0 "[GER.GetLeader] a acceptée notre contre-offre."
+germany.2005.a:0 "Formidable !"
+##
+germany.2006.t:0 "Contre-offre rejetée"
+germany.2006.desc:0 "[GER.GetLeader] a refusée notre contre-offre."
+germany.2006.a:0 "Il est vraiment impossible de négocier avec les allemands"
+##
+GermanyNews.1000.t:0 "[LUX.GetNameDef] obligé de se soumettre"
+GermanyNews.1000.desc:0 "Subissant les pressions diplomatiques et militaires de ses pays voisins, le gouvernement du Luxembourg a été plongé dans une crise grave. Ne recevant aucune aide de la part de la France, un nouveau gouvernement a émergé du chaos, bien plus tourné vers l'[GER.GetFactionName] que ne l'était l'ancien."
+GermanyNews.1000.a:0 "Ce nouveau gouvernement assure notre position contre la France"
+GermanyNews.1000.b:0 "Cette alliance renforce notre position"
+GermanyNews.1000.c:0 "Une nouvelle victime de l'[GER.GetFactionName]"
+GermanyNews.1000.d:0 "Peut être aurions nous du les aider"
+##
+germany.2007.t:0 "Mise en place du Service Travail Obligatoire"
+germany.2007.desc:0 "Les allemands nous demandent de la main d'oeuvre pour remplir leurs usines et réparer les infrastructures.\nQue faire ?"
+germany.2007.a:0 "Les aider"
+germany.2007.b:0 "Aucun français n'ira pourrir en Allemagne"
+##
+germany.2008.t:0 "Demande acceptée"
+germany.2008.desc:0 "Les français ont accepté notre demande de main d'oeuvre et vont mettre en place le Service Travail Obligatoire."
+germany.2008.a:0 "Des nouvelles petites mains à faire travailler"
+##
+germany.2009.t:0 "Demande refusée"
+germany.2009.desc:0 "Les français ont refusé notre demande."
+germany.2009.a:0 "Maudis français"
+####################
+####################
