@@ -2542,7 +2542,7 @@ focus_tree = {
 		#	factor = 1
 		#}
 		completion_reward = {
-			add_political_power = 200
+			add_political_power = 300
 		}
 	}
 			focus = {
@@ -2565,6 +2565,35 @@ focus_tree = {
 			add_political_power = -100
 		}
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
