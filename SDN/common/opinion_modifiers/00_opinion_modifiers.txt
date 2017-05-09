@@ -676,4 +676,4 @@ opinion_modifiers = {
 	GER_priority_relation = {
 		value = 10
 	}
-}	
+}

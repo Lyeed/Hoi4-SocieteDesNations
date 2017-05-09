@@ -75,6 +75,7 @@ focus_tree = {
 		cost = 10,00
 		x = 5
 		y = 0
+		available = { NOT = { has_idea = diktat } }
 			ai_will_do = {
 					factor = 1
 				}
@@ -183,6 +184,7 @@ focus_tree = {
 		cost = 10,00
 		x = 9
 		y = 0
+			available = { NOT = { has_idea = diktat } }
 			ai_will_do = {
 					factor = 1
 				}
@@ -227,13 +229,14 @@ focus_tree = {
 					51 = {
 							set_demilitarized_zone = no
 						}
-					custom_effect_tooltip = GER_rhineland_ultimatum
+					remove_ideas = diktat
 					add_political_power = 120
 					army_experience = 5
 					add_named_threat = {
 							threat = 5
 							name = GER_rhineland
 						}
+					custom_effect_tooltip = GER_rhineland_ultimatum
 					if = {
 							limit = {
 									FRA = {
@@ -247,6 +250,7 @@ focus_tree = {
 									custom_effect_tooltip = may_provoke_hostility
 								}
 						}
+
 				}
 
 	}
@@ -408,6 +412,7 @@ focus_tree = {
 					factor = 1
 				}
 			available_if_capitulated = yes
+			available = { NOT = { has_idea = diktat } }
 			bypass = {
 					custom_trigger_tooltip = {
 							tooltip = naval_effort_tt
@@ -772,7 +777,14 @@ focus_tree = {
 				}
 			available_if_capitulated = yes
 			completion_reward = {
-					55 = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = synthetic_refinery
+											size > 0
+											include_locked = yes
+										}
+								}
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = synthetic_refinery
@@ -780,15 +792,14 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					54 = {
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = synthetic_refinery
-									level = 1
-									instant_build = yes
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = synthetic_refinery
+											size > 0
+											include_locked = yes
+										}
 								}
-						}
-					59 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = synthetic_refinery
@@ -799,7 +810,7 @@ focus_tree = {
 					add_tech_bonus = {
 							name = synth_bonus
 							bonus = 0.5
-							uses = 1
+							uses = 2
 							category = synth_resources
 						}
 				}
@@ -822,7 +833,14 @@ focus_tree = {
 					factor = 5
 				}
 			completion_reward = {
-					55 = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 1
+											include_locked = yes
+										}
+								}
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = arms_factory
@@ -830,7 +848,14 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					54 = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 1
+											include_locked = yes
+										}
+								}
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = arms_factory
@@ -838,11 +863,18 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					59 = {
-							add_extra_state_shared_building_slots = 2
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = arms_factory
-									level = 2
+									level = 1
 									instant_build = yes
 								}
 						}
@@ -1567,7 +1599,7 @@ focus_tree = {
 			available = {
 					is_puppet = no
 					has_army_manpower = {
-							size > 449999
+							size > 499999
 						}
 					NOT = {
 							has_idea = rhineland_challenge_met
@@ -1594,6 +1626,12 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
+					if = {
+							limit = {
+								has_idea = diktat
+							}
+							remove_ideas = diktat
+						}
 					army_experience = 10
 					if = {
 							limit = {
