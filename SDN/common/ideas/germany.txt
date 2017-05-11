@@ -12,7 +12,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				always = facist
+				has_government = fascism
 			}
 
 			removal_cost = -1
@@ -63,7 +63,7 @@ ideas = {
 			}
 		}
 
-		diktat = {
+		GER_diktat_idea = {
 			
 			allowed = {
 				always = no

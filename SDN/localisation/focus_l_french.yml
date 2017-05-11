@@ -171,8 +171,6 @@
  GER_anti_soviet_pact_desc:0 "Après le pacte anti-Komintern, nous pouvons passer à l'étape suivante en demandant à tous les signataires de former une coalition contre l'Union soviétique. Si l'un d'entre eux était attaqué par l'URSS, tous les autres devraient alors également lui déclarer la guerre."
  GER_anti_soviet_pact_tt:0 "§YOffre à tous les signataires du pacte anti-Komintern d'adhérer à une coalition défensive contre l'Union soviétique.§!"
  GER_anti_soviet_pact_tt_2:0 "§Y La coalition défensive appellera l'ensemble des membres au combat si n'importe lequel d'entre eux est attaqué par le Komintern§!"
- GER_ussr_war_goal:0 "Guerre contre l'URSS"
- GER_ussr_war_goal_desc:0 "Nous devons préparer l'opinion allemande – et mondiale – à une guerre légitime contre l'Union soviétique en centrant notre propagande sur ce sujet."
  GER_turkey_friend:0 "Amitié avec la Turquie"
  GER_turkey_friend_desc:0 "La Turquie d'Atatürk est en voie de modernisation, et le pays contrôle l'accès à la mer Noire par le Bosphore et les Dardanelles. Nous devons faire une priorité d'insérer la Turquie dans notre sphère d'influence."
  GER_anschluss:0 "Anschluss"
@@ -204,9 +202,6 @@
  GER_danzig_vs_slovakia_desc:0 "Les Polonais empêchent la réalisation du Lebensraum, notre espace vital. Mais il n'est pas trop tard pour modifier nos priorités à long terme et tenter de gagner leur amitié. Le seul moyen d'y parvenir serait d'échanger Dantzig contre la Slovaquie. Après tout, la Pologne a déjà montré qu'elle s'intéressait à ce territoire en occupant la région de la Zaolzie."
  GER_poland_friend:0 "Amitié avec la Pologne"
  GER_poland_friend_desc:0 "Si la Pologne ne dispose plus d'accès à la mer, nous lui avons montré nos bonnes intentions en lui cédant la Slovaquie. Peut-être pourrions-nous de les rapprocher encore de nous en leur faisant quelques vagues promesses territoriales de gains territoriaux à l'Est ?"
- GER_war_with_france:0 "Guerre contre la France"
- GER_war_with_france_desc:0 "L'Allemagne a maintenant trouvé une solution satisfaisante au problème de sa frontière orientale, même si ce n'est que temporaire. Il est donc temps de tourner notre attention à l'ouest. La perte de l'Alsace-Lorraine est une tâche sur l'honneur du peuple allemand, que seule une guerre juste pourra laver."
- GER_war_with_france_threat:0 "Revendications sur le territoire français"
  GER_naval_rearmament:0 "Réarmement naval"
  GER_naval_rearmament_desc:0 "Le traité naval germano-britannique conclu en 1935 nous autorise à développer notre flotte. Ne ménageons donc pas nos efforts."
  GER_plan_z:0 "Plan Z"
@@ -1970,7 +1965,9 @@ GER_STO_tt:0 "§YLa France de Vichy§! est un état fantoche de l'§YAllemagne§
 GER_venezuelan_trade:0 "Pétrole vénézuélien"
 GER_venezuelan_trade_desc:0 "Nous avons besoin d'une source de pétrole bon marché pour faire tourner notre économie de guerre, bien que le trajet soit long les puits de pétrole du Vénézuela sont loin de s'épuiser."
 ##
-GER_vote:0 "Soutien populaire à la remilitarisation de la Rhénanie"
-GER_vote_desc0:0 ""
-####################
+GER_aus_nazi:0 "Faire pression sur l'Autriche"
+GER_aus_nazi_desc:0 "Le parti nazi est actuellement interdit en Autriche et nous avons besoin du soutien populaire si nous voulons organiser un référendum pour l'unification de l'autriche. Faisons pression sur le gouvernement pour qu'il relâche les membres du parti pour qu'ils puissent circuler et débatrent librement de l'avenir de l'Autriche allemande."
+##
+GER_aus_ultimatum:0 "Ultimatum à l'Autriche"
+GER_aus_ultimatum_desc:0 "Maintenant que la Rhénanie est remilitarisée et que la popularité du DNSAP en Autriche grandie de jour en jour nous allons pouvoir exercer un ultimatum à l'autriche. Le chancelier doit démissionner et laisser sa place à Arthur Seyss-Inquart, un membre du DNSAP en faveur pour l'unification de l'Allemagne et de l'Autriche."
 ####################

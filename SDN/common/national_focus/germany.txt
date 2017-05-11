@@ -75,7 +75,7 @@ focus_tree = {
 		cost = 10,00
 		x = 5
 		y = 0
-		available = { NOT = { has_idea = diktat } }
+		available = { NOT = { has_idea = GER_diktat_idea } }
 			ai_will_do = {
 					factor = 1
 				}
@@ -184,7 +184,7 @@ focus_tree = {
 		cost = 10,00
 		x = 9
 		y = 0
-			available = { NOT = { has_idea = diktat } }
+			available = { NOT = { has_idea = GER_diktat_idea } }
 			ai_will_do = {
 					factor = 1
 				}
@@ -206,7 +206,7 @@ focus_tree = {
 		id = GER_rhineland
 		icon = GFX_goal_generic_military_sphere
 		cost = 10,00
-		x = 18
+		x = 17
 		y = 0
 			available = {
 					is_puppet = no
@@ -229,7 +229,6 @@ focus_tree = {
 					51 = {
 							set_demilitarized_zone = no
 						}
-					remove_ideas = diktat
 					add_political_power = 120
 					army_experience = 5
 					add_named_threat = {
@@ -258,7 +257,7 @@ focus_tree = {
 		id = GER_rhineland_ask
 		icon = GFX_goal_generic_intelligence_exchange
 		cost = 8,00
-		x = 20
+		x = 19
 		y = 0
 			available = {
 					is_puppet = no
@@ -299,6 +298,20 @@ focus_tree = {
 									custom_effect_tooltip = needs_approval
 								}
 						}
+				}
+
+	}
+	focus = {
+		id = GER_aus_nazi
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		x = 21
+		y = 0
+		ai_will_do = {
+				factor = 100
+			}
+			completion_reward = {
+					AUS = { remove_ideas = AUS_nazism_ban_idea add_ideas = AUS_nazism_support_idea }
 				}
 
 	}
@@ -412,7 +425,7 @@ focus_tree = {
 					factor = 1
 				}
 			available_if_capitulated = yes
-			available = { NOT = { has_idea = diktat } }
+			available = { NOT = { has_idea = GER_diktat_idea } }
 			bypass = {
 					custom_trigger_tooltip = {
 							tooltip = naval_effort_tt
@@ -1587,52 +1600,77 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_anschluss
-		icon = GFX_goal_anschluss
+		id = GER_aus_ultimatum
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		cost = 10,00
 		prerequisite = {
 			focus = GER_rhineland
 			focus = GER_rhineland_ask
 		}
+		prerequisite = {
+			focus = GER_aus_nazi
+		}
+		cancel = { has_idea = rhineland_challenge_met }
 		x = 19
 		y = 1
+		available = {
+				AUS = { fascism > 0.5 }
+				
+				42 = {
+						is_demilitarized_zone = no
+					}
+				51 = {
+						is_demilitarized_zone = no
+					}
+				NOT = {
+						has_idea = rhineland_challenge_met
+					}
+			}
+		cancel_if_invalid = yes
+		ai_will_do = {
+				factor = 100
+				modifier = {
+						factor = 0
+						date < 1938.1.1
+					}
+			}
+		completion_reward = {
+				army_experience = 10
+    		AUS = {		
+	    		set_politics = {
+	  			ruling_party = fascism
+	   			elections_allowed = no
+	   			}
+    		}
+				GER = { puppet = AUS }
+			}
+
+	}
+	focus = {
+		id = GER_anschluss
+		icon = GFX_goal_anschluss
+		cost = 10,00
+		prerequisite = {
+			focus = GER_aus_ultimatum
+		}
+		x = 19
+		y = 2
 			available = {
-					is_puppet = no
-					has_army_manpower = {
-							size > 499999
-						}
-					NOT = {
-							has_idea = rhineland_challenge_met
-						}
-					42 = {
-							is_demilitarized_zone = no
-						}
-					51 = {
-							is_demilitarized_zone = no
-						}
+					AUS = { has_country_leader = { name = "Arthur Seyss-Inquart" } }
 				}
-			cancel = {
-					OR = {
-							is_puppet = yes
-							has_idea = rhineland_challenge_met
-						}
-				}
-			cancel_if_invalid = no
+			cancel = { AUS = { NOT = { has_country_leader = { name = "Arthur Seyss-Inquart" } } } }
+
+			cancel_if_invalid = yes
 			ai_will_do = {
-					factor = 10
-					modifier = {
-							factor = 0
-							date < 1938.1.1
-						}
+					factor = 100
 				}
 			completion_reward = {
-					if = {
-							limit = {
-								has_idea = diktat
-							}
-							remove_ideas = diktat
+					remove_ideas = GER_diktat_idea
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							technology = tech_military_police
 						}
-					army_experience = 10
 					if = {
 							limit = {
 									country_exists = AUS
@@ -1742,33 +1780,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_Einsatzgruppen
-		icon = GFX_goal_generic_allies_build_infantry
-		cost = 3,00
-		prerequisite = {
-			focus = GER_anschluss
-		}
-		x = 19
-		y = 2
-			ai_will_do = {
-					factor = 1
-				}
-			available_if_capitulated = yes
-			completion_reward = {
-					add_tech_bonus = {
-							bonus = 0.5
-							uses = 1
-							technology = tech_military_police
-						}
-				}
-
-	}
-	focus = {
 		id = GER_czech_friend
 		icon = GFX_goal_generic_improve_relations
 		cost = 10,00
 		prerequisite = {
-			focus = GER_Einsatzgruppen
+			focus = GER_anschluss
 		}
 		mutually_exclusive = {
 			focus = GER_demand_sudetenland
@@ -1872,7 +1888,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		cost = 10,00
 		prerequisite = {
-			focus = GER_Einsatzgruppen
+			focus = GER_anschluss
 		}
 		mutually_exclusive = {
 			focus = GER_czech_friend
@@ -2006,7 +2022,7 @@ focus_tree = {
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 10,00
 		prerequisite = {
-			focus = GER_Einsatzgruppen
+			focus = GER_anschluss
 		}
 		x = 19
 		y = 3
@@ -2237,7 +2253,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		cost = 10,00
 		prerequisite = {
-			focus = GER_Einsatzgruppen
+			focus = GER_anschluss
 		}
 		x = 21
 		y = 3
@@ -2810,7 +2826,7 @@ focus_tree = {
 		icon = GFX_goal_support_fascism
 		cost = 10,00
 		prerequisite = {
-			focus = GER_Einsatzgruppen
+			focus = GER_anschluss
 		}
 		x = 23
 		y = 3
@@ -3513,14 +3529,14 @@ focus_tree = {
 						}
 					add_tech_bonus = {
 							name = secret
-							ahead_reduction = 0.5
+							ahead_reduction = 0.75
 							uses = 1
 							technology = experimental_rockets
 						}
 					add_tech_bonus = {
 							name = secret
 							bonus = 0.5
-							uses = 1
+							uses = 2
 							technology = rocket_engines
 						}
 				}
@@ -3559,8 +3575,11 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_second_vienna_award
 		}
-		x = 16
-		y = 8
+		prerequisite = {
+			focus = GER_anti_comitern_pact
+		}
+		x = 14
+		y = 7
 			available = {
 					NOT = {
 							has_war_with = ITA
@@ -4061,7 +4080,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		cost = 10,00
 		prerequisite = {
-			focus = GER_second_vienna_award
+			focus = GER_italy_ally
 		}
 		x = 14
 		y = 8

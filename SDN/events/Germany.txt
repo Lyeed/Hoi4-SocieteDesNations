@@ -816,15 +816,7 @@ country_event = {
 	option = { # Accept
 		name = germany.28.a
 		ai_chance = {
-			base = 30
-			modifier = {
-				add = -25
-				GER = { has_army_size = { size < 40 } }
-			}
-			modifier = {
-				add = 100
-				GER = { has_army_size = { size > 39 } }
-			}
+			base = 50
 		}
 		GER = {
 			country_event = { hours = 2 id = germany.4 }
@@ -835,15 +827,6 @@ country_event = {
 		name = germany.28.b
 		ai_chance = {
 			base = 10			
-			modifier = {
-				factor = 0
-				GER = { has_army_size = { size > 39 } }
-				is_historical_focus_on = yes
-			}
-			modifier = {
-				add = 20
-				GER = { has_army_size = { size < 30 } }
-			}
 		}
 		GER = {
 			add_opinion_modifier = { target = ROOT modifier = GER_anschluss_rejected }
@@ -2442,16 +2425,12 @@ country_event = {
 	trigger = {
 		has_country_leader = { name = "Adolf Hitler" }
 		tag = GER
-		AND = {
-			CZE = { has_capitulated = no }
-			country_exists = CZE # Should only trigger if CZE hasn't fallen
-		}
-		has_war_with = CZE
+		has_war_with = SOV
 		has_war_with = FRA
 		has_war_with = ENG
-		has_country_flag = allies_support_czechs
+		has_war_with = USA
 	}
-	
+
 	mean_time_to_happen = {
 		days = 150
 	}

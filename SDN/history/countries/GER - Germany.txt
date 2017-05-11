@@ -224,7 +224,7 @@ create_faction = Axis
 add_to_faction = GER
 
 add_ideas = {
-	diktat
+	GER_diktat_idea
 	sour_loser
 	general_staff
 	limited_exports
