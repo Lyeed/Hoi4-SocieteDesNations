@@ -1877,6 +1877,12 @@
 ##################
 ###    LYEED   ###
 ##################
+GER_focus_battleship:0 "Priorité aux cuirassés"
+GER_focus_battleship_desc:0 ""
+##
+GER_focus_carrier:0 "Priorité aux porte-avions"
+GER_focus_carrier_desc:0 ""
+##
 GER_occupy_vichy:0 "Occuper le Sud de la France"
 GER_occupy_vichy_desc:0 "Les débarquements en Afrique du Nord fragiligent notre position en France. Nous devons passer la ligne de démarcation et nous emparer des territoires de Vichy."
 GER_occupy_vichy_tt:0 "§YLa France de Vichy§! est un état fantoche de l'§YAllemagne§! et ne contrôle ni §YAlger§! ni §YCasablanca§!"
@@ -1970,4 +1976,5 @@ GER_aus_nazi_desc:0 "Le parti nazi est actuellement interdit en Autriche et nous
 ##
 GER_aus_ultimatum:0 "Ultimatum à l'Autriche"
 GER_aus_ultimatum_desc:0 "Maintenant que la Rhénanie est remilitarisée et que la popularité du DNSAP en Autriche grandie de jour en jour nous allons pouvoir exercer un ultimatum à l'autriche. Le chancelier doit démissionner et laisser sa place à Arthur Seyss-Inquart, un membre du DNSAP en faveur pour l'unification de l'Allemagne et de l'Autriche."
+
 ####################
