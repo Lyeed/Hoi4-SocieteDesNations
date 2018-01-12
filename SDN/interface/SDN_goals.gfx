@@ -1,0 +1,22 @@
+spriteTypes = {	
+
+	SpriteType = { 
+		name = "GFX_hitler_suicide"
+		texturefile = "gfx/interface/goals/hitler_suicide.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_long_knife_night"
+		texturefile = "gfx/interface/goals/long_knife_night.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_pact_SA"
+		texturefile = "gfx/interface/goals/pact_SA.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_state"
+		texturefile = "gfx/interface/goals/state.dds"
+	}
+}

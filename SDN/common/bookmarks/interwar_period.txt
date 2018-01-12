@@ -1,13 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "INTERWAR_NAME"
+		desc = "INTERWAR_DESC"
 		date = 1934.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
-		default = yes
 		
-		"FRA"={
+		default_country = ""
+		default = no
+		
+		"FRA"= {
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -21,7 +22,7 @@ bookmarks = {
 				FRA_revise_versailles
 			}
 		}
-		"USA"={
+		"USA"= {
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -35,7 +36,7 @@ bookmarks = {
 				USA_pearl_harbor_gambit
 			}
 		}
-		"ENG"={
+		"ENG"= {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -50,7 +51,7 @@ bookmarks = {
 			}
 		}
 
-		"GER"={
+		"GER"= {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -64,7 +65,7 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		"ITA"={
+		"ITA"= {
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -77,7 +78,7 @@ bookmarks = {
 				ITA_italy_first
 			}		
 		}
-		"JAP"={
+		"JAP"= {
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -89,7 +90,7 @@ bookmarks = {
 				found_own_faction_focus
 			}			
 		}
-		"SOV"={
+		"SOV"= {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
@@ -103,13 +104,13 @@ bookmarks = {
 			}	
 		}
 
-		"---"={
+		"---"= {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
 
 		# minors from DLC ####
-		"POL"={
+		"POL"= {
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
 			ideology = neutrality
@@ -122,7 +123,7 @@ bookmarks = {
 				POL_seek_accommodation_with_germany
 			}
 		}
-		"CAN"={
+		"CAN"= {
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -136,7 +137,7 @@ bookmarks = {
 				CAN_join_comintern
 			}
 		}
-		"AST"={
+		"AST"= {
 			minor = yes
 			history = "AST_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -149,7 +150,7 @@ bookmarks = {
 				AST_delegation_to_china
 			}
 		}
-		"NZL"={
+		"NZL"= {
 			minor = yes
 			history = "NZL_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -162,7 +163,7 @@ bookmarks = {
 				NZL_maori_volunteers
 			}
 		}
-		"SAF"={
+		"SAF"= {
 			minor = yes
 			history = "SAF_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -176,7 +177,7 @@ bookmarks = {
 				SAF_anti_colonialist_crusade
 			}
 		}
-		"RAJ"={
+		"RAJ"= {
 			minor = yes
 			history = "RAJ_GATHERING_STORM_DESC"
 			ideology = neutrality
@@ -192,7 +193,7 @@ bookmarks = {
 		}
 
 		effect = {
-			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			randomize_weather = 1 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
 	}

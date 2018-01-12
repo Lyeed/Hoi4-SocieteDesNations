@@ -1976,5 +1976,34 @@ GER_aus_nazi_desc:0 "Le parti nazi est actuellement interdit en Autriche et nous
 ##
 GER_aus_ultimatum:0 "Ultimatum à l'Autriche"
 GER_aus_ultimatum_desc:0 "Maintenant que la Rhénanie est remilitarisée et que la popularité du DNSAP en Autriche grandie de jour en jour nous allons pouvoir exercer un ultimatum à l'autriche. Le chancelier doit démissionner et laisser sa place à Arthur Seyss-Inquart, un membre du DNSAP en faveur pour l'unification de l'Allemagne et de l'Autriche."
-
+##
+GER_long_knife_night:0 "La nuit des longs couteaux"
+GER_long_knife_night_desc:0 ""
+##
+GER_SA_agreement:0 "Coopération Wehrmacht-SA"
+GER_SA_agreement_desc:0 ""
+##
+GER_heaf_of_state_mix:0 "Fusionner Chancelier et président"
+GER_heaf_of_state_mix_desc:0 ""
+##
+GER_german_society:0 "Qualité de vie allemande"
+GER_german_society_desc:0 ""
+##
+GER_german_effort:0 "Effort du peuple"
+GER_german_effort_desc:0 ""
+##
+GER_reams:0 "Annoncer le réamement"
+GER_reams_desc:0 ""
+##
+GER_hitler_suicide:0 "Suicide du führer"
+GER_hitler_suicide_desc:0 ""
+##
+GER_naval_british_agreement:0 "Traité naval germano-britannique"
+GER_naval_british_agreement_desc:0 ""
+##
+GER_fallschirmjager:0 "Fallschirmjager"
+GER_fallschirmjager_desc:0 ""
+##
+GER_polish_pact:0 "Pacte de non-agression germano-polonais"
+GER_polish_pact_desc:0 ""
 ####################

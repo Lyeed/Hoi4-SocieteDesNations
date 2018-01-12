@@ -3,4 +3,4 @@ path="mod/SDN/"
 tags={
 	"Events"
 }
-supported_version="1.3.*"
+supported_version="1.4.*"
