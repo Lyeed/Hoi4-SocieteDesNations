@@ -15,10 +15,13 @@ ideas = {
 
 			modifier = {
 				conscription = 0.01
-				training_time_factor = 1
+				conscription_factor = -0.5
+				training_time_factor = 2
+			}
+			research_bonus = {
 				land_doctrine = -0.5
-				air_doctrine = -0.5
-				naval_doctrine = -0.5
+				air_doctrine = -0.2
+				naval_doctrine = -0.2
 			}
 			
 			cancel_if_invalid = no

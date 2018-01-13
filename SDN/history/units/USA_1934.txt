@@ -25,10 +25,7 @@ division_template = {
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 1 y = 2 }
 	}
-	support = {
-		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
-		engineer = { x = 0 y = 1 }   # US Eng Bn
-	}
+	support = {}
 }
 division_template = {
 	name = "Garrison Brigade"
@@ -260,16 +257,12 @@ units = {
 		location = 1562 # San Diego
 		ship = { name = "USS Lexington" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
 			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "USA" amount = 8 } # historical: 16
-				cv_CAS_equipment_1 =  { owner = "USA" amount = 14 } # historical: 30
-				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 8 } # historical: 12
+				cv_fighter_equipment_0 =  { owner = "USA" amount = 23 }
 			}
 		}
 		ship = { name = "USS Saratoga" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
 			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "USA" amount = 8 } # historical: 16
-				cv_CAS_equipment_1 =  { owner = "USA" amount = 14 } # historical: 30
-				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 8 } # historical: 12
+				cv_fighter_equipment_0 =  { owner = "USA" amount = 23 }
 			}
 		}
 	}
@@ -439,9 +432,7 @@ units = {
 		location = 788 # Norfolk
 		ship = { name = "USS Ranger" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USA } } 
 			air_wings = {
-				cv_fighter_equipment_0 =  { owner = "USA" amount = 8 } # historical: 36
-				cv_CAS_equipment_1 =  { owner = "USA" amount = 14 } # historical: 15
-				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 8 } # historical: 12
+				cv_fighter_equipment_0 =  { owner = "USA" amount = 36 }
 			}
 		}
 	}
@@ -607,12 +598,12 @@ air_wings = {
 	378 = {
 		# 7th Bombardment Group 
 		# 19th Bombardment Group 
-		tac_bomber_equipment_0 = {
+		fighter_equipment_0 = {
 			owner = "USA" 
 			amount = 60
 		}
 		# 17th Attack Group 
-		CAS_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "USA" 
 			amount = 48
 		}
@@ -628,7 +619,7 @@ air_wings = {
 		}
 		# 2nd Bombardment Group 
 		# 9th Bombardment Group 
-		tac_bomber_equipment_0 = {
+		fighter_equipment_0 = {
 			owner = "USA" 
 			amount = 96
 		}
@@ -642,7 +633,7 @@ air_wings = {
 			amount = 96
 		}
 		# 3rd Attack Group 
-		CAS_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "USA" 
 			amount = 48
 		}
@@ -656,7 +647,7 @@ air_wings = {
 			amount = 48
 		}
 		# 5th Composite Group 
-		tac_bomber_equipment_0 = {
+		fighter_equipment_0 = {
 			owner = "USA" 
 			amount = 36
 		}
@@ -670,7 +661,7 @@ air_wings = {
 			amount = 96
 		}
 		# 6th Composite Group 
-		tac_bomber_equipment_0 = {
+		fighter_equipment_0 = {
 			owner = "USA" 
 			amount = 12
 		}
@@ -688,7 +679,7 @@ air_wings = {
 	### USN Atlantic Naval Patrol Division -- Norfolk
 	362 = { 
 		# Naval Patrol Wing 3 
-		nav_bomber_equipment_1 =  {
+		cv_fighter_equipment_0 =  {
 			owner = "USA" 
 			amount = 36
 		}
@@ -697,7 +688,7 @@ air_wings = {
 	378 = { 
 		# Naval Patrol Wing 1 
 		# Naval Patrol Wing 2 
-		nav_bomber_equipment_1 =  {
+		cv_fighter_equipment_0 =  {
 			owner = "USA" 
 			amount = 72
 		}
@@ -711,7 +702,7 @@ instant_effect = {
 		
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
+			type = infantry_equipment_0
 			creator = "USA"
 		}
 		requested_factories = 2
@@ -747,25 +738,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = cv_nav_bomber_equipment_1
-			creator = "USA" 
-		}
-		requested_factories = 1
-		progress = 0.15
-		efficiency = 50
-	}
-	add_equipment_production = {
-		equipment = {
 			type = cv_fighter_equipment_0
-			creator = "USA" 
-		}
-		requested_factories = 1
-		progress = 0.15
-		efficiency = 50
-	}
-	add_equipment_production = {
-		equipment = {
-			type = cv_CAS_equipment_1
 			creator = "USA" 
 		}
 		requested_factories = 1
@@ -777,7 +750,7 @@ instant_effect = {
 			type = fighter_equipment_0
 			creator = "USA" 
 		}
-		requested_factories = 1
+		requested_factories = 2
 		progress = 0.15
 		efficiency = 50
 	}

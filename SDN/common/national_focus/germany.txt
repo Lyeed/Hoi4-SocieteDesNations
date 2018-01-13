@@ -533,7 +533,7 @@ focus_tree = {
 	focus = {
 		id = GER_wunderwaffe
 		icon = GFX_focus_wonderweapons
-		cost = 10
+		cost = 20
 		prerequisite = {
 			focus = GER_west_wall
 		}
